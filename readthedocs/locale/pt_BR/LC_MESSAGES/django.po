@@ -5,13 +5,14 @@
 # Translators:
 # Fábio C. Barrionuevo da Luz <bnafta@gmail.com>, 2014
 # Rodrigo <rprior@infranology.com.br>, 2014
+# gsavix  <gsavix@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: readthedocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-03 17:36-0600\n"
-"PO-Revision-Date: 2014-04-24 21:43+0000\n"
-"Last-Translator: Eric Holscher <eric@ericholscher.com>\n"
+"PO-Revision-Date: 2016-11-26 19:50-0200\n"
+"Last-Translator: gilberto dos santos alves <gsavix@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
 "readthedocs/language/pt_BR/)\n"
 "Language: pt_BR\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #: api/utils.py:86
 msgid "Sorry, no results on that page."
@@ -27,7 +29,7 @@ msgstr "Desculpe, nenhum resultado na página."
 #: api/utils.py:169
 #, python-format
 msgid "Invalid resource lookup data provided (mismatched type).: %(error)s"
-msgstr ""
+msgstr "Recurso busca inválido dados ou (tipos) misturados.: %(error)s"
 
 #: bookmarks/models.py:10 core/models.py:16 projects/models.py:57
 msgid "User"
@@ -47,7 +49,7 @@ msgstr "Versão"
 
 #: bookmarks/models.py:16
 msgid "Page"
-msgstr ""
+msgstr "Página"
 
 #: bookmarks/models.py:18 builds/models.py:256 comments/models.py:147
 #: comments/models.py:208
@@ -61,7 +63,7 @@ msgstr "URL"
 #: bookmarks/models.py:26
 #, python-format
 msgid "Bookmark %(url)s for %(user)s (%(pk)s)"
-msgstr ""
+msgstr "Favorito %(url)s para %(user)s (%(pk)s)"
 
 #: builds/constants.py:4
 msgid "Triggered"
@@ -69,15 +71,15 @@ msgstr ""
 
 #: builds/constants.py:5
 msgid "Cloning"
-msgstr ""
+msgstr "Clonando"
 
 #: builds/constants.py:6
 msgid "Installing"
-msgstr ""
+msgstr "Instalando"
 
 #: builds/constants.py:7
 msgid "Building"
-msgstr ""
+msgstr "Construindo"
 
 #: builds/constants.py:8
 msgid "Finished"
@@ -97,15 +99,15 @@ msgstr "Epub"
 
 #: builds/constants.py:15
 msgid "Manpage"
-msgstr ""
+msgstr "ManPage"
 
 #: builds/constants.py:16
 msgid "Dash"
-msgstr ""
+msgstr "Painel"
 
 #: builds/constants.py:20
 msgid "Branch"
-msgstr ""
+msgstr "Versão"
 
 #: builds/constants.py:21
 msgid "Tag"
@@ -117,7 +119,7 @@ msgstr ""
 
 #: builds/filters.py:10 projects/filters.py:9
 msgid "Any"
-msgstr ""
+msgstr "Qualquer"
 
 #: builds/filters.py:29 oauth/models.py:18 oauth/models.py:37
 #: oauth/models.py:69 oauth/models.py:87 projects/filters.py:33
@@ -127,11 +129,11 @@ msgstr "Nome"
 
 #: builds/filters.py:40
 msgid "Build Date"
-msgstr ""
+msgstr "Data Construção"
 
 #: builds/filters.py:41
 msgid "Build Type"
-msgstr ""
+msgstr "Tipo Construção"
 
 #: builds/models.py:25 builds/models.py:252
 msgid "Type"
@@ -154,15 +156,15 @@ msgstr ""
 msgid "Supported"
 msgstr ""
 
-#: builds/models.py:35 oauth/models.py:20 oauth/models.py:44
-#: oauth/models.py:71 oauth/models.py:95 redirects/models.py:12
+#: builds/models.py:35 oauth/models.py:20 oauth/models.py:44 oauth/models.py:71
+#: oauth/models.py:95 redirects/models.py:12
 #: templates/projects/project_versions.html:46
 msgid "Active"
 msgstr "Ativo"
 
 #: builds/models.py:36 templates/projects/includes/icon_built.html:4
 msgid "Built"
-msgstr ""
+msgstr "Construir"
 
 #: builds/models.py:37 templates/projects/includes/icon_built.html:7
 msgid "Uploaded"
@@ -170,15 +172,15 @@ msgstr ""
 
 #: builds/models.py:39 projects/models.py:154
 msgid "Privacy Level"
-msgstr ""
+msgstr "Nível Privacidade"
 
 #: builds/models.py:40
 msgid "Level of privacy for this Version."
-msgstr ""
+msgstr "Nível de privacidade dessa Versão."
 
 #: builds/models.py:43
 msgid "Machine Created"
-msgstr ""
+msgstr "Máquina Criada"
 
 #. Translators: Permission around whether a user can view the
 #. version
@@ -193,7 +195,7 @@ msgstr ""
 
 #: builds/models.py:234
 msgid "From slug"
-msgstr ""
+msgstr "Origem slug"
 
 #: builds/models.py:235
 msgid "To slug"
@@ -201,12 +203,12 @@ msgstr ""
 
 #: builds/models.py:237
 msgid "Largest"
-msgstr ""
+msgstr "Amplo"
 
 #: builds/models.py:240
 #, python-format
 msgid "Alias for %(project)s: %(from)s -> %(to)s"
-msgstr ""
+msgstr "Alias para %(project)s: %(from)s -> %(to)s"
 
 #: builds/models.py:254
 msgid "State"
@@ -226,7 +228,7 @@ msgstr ""
 
 #: builds/models.py:261
 msgid "Output"
-msgstr ""
+msgstr "Saída"
 
 #: builds/models.py:262
 msgid "Error"
@@ -234,37 +236,37 @@ msgstr "Erro"
 
 #: builds/models.py:263
 msgid "Exit code"
-msgstr ""
+msgstr "Código Saída"
 
 #: builds/models.py:265 projects/models.py:810
 #: templates/builds/build_detail.html:39
 msgid "Commit"
-msgstr ""
+msgstr "Commit"
 
 #: builds/models.py:267
 msgid "Build Length"
-msgstr ""
+msgstr "Tamanho Construção"
 
 #: builds/models.py:279
 #, python-format
 msgid "Build %(project)s for %(usernames)s (%(pk)s)"
-msgstr ""
+msgstr "Montar %(project)s para %(usernames)s (%(pk)s)"
 
 #: comments/models.py:63 projects/models.py:118 projects/models.py:808
 msgid "Path"
-msgstr ""
+msgstr "Caminho"
 
 #: comments/models.py:65
 msgid "Raw Source"
-msgstr ""
+msgstr "Fonte Raw"
 
 #: comments/models.py:114
 msgid "Hash"
-msgstr ""
+msgstr "Hash"
 
 #: comments/models.py:148
 msgid "Rating"
-msgstr ""
+msgstr "Ranking"
 
 #: comments/models.py:149
 msgid "Text"
@@ -292,7 +294,7 @@ msgstr "Página inicial"
 
 #: core/models.py:20
 msgid "Allow email"
-msgstr ""
+msgstr "Permite email"
 
 #: core/models.py:21
 msgid "Show your email on VCS contributions."
@@ -301,22 +303,22 @@ msgstr ""
 #: core/models.py:26
 #, python-format
 msgid "%(username)s's profile"
-msgstr ""
+msgstr "%(username)s's perfil"
 
 #: djangome/views.py:25
 #, python-format
 msgid "Please enter a valid URL on %s"
-msgstr ""
+msgstr "Favor informar URL válida no %s"
 
 #: oauth/models.py:8 oauth/models.py:29 oauth/models.py:59 oauth/models.py:80
 #: projects/models.py:53
 msgid "Publication date"
-msgstr ""
+msgstr "Data Publicação"
 
 #: oauth/models.py:9 oauth/models.py:30 oauth/models.py:60 oauth/models.py:81
 #: projects/models.py:54
 msgid "Modified date"
-msgstr ""
+msgstr "Data Modif."
 
 #: oauth/models.py:11 oauth/models.py:33 oauth/models.py:62 oauth/models.py:83
 #, fuzzy
@@ -325,11 +327,11 @@ msgstr "Usuário"
 
 #: oauth/models.py:14 oauth/models.py:65
 msgid "Login"
-msgstr ""
+msgstr "Login"
 
 #: oauth/models.py:16 oauth/models.py:67
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: oauth/models.py:19 oauth/models.py:43 oauth/models.py:70 oauth/models.py:94
 #, fuzzy
@@ -338,7 +340,7 @@ msgstr "HTML"
 
 #: oauth/models.py:35 oauth/models.py:85
 msgid "Organization"
-msgstr ""
+msgstr "Organização"
 
 #: oauth/models.py:38 oauth/models.py:88
 #, fuzzy
@@ -356,7 +358,7 @@ msgstr ""
 
 #: oauth/models.py:41 oauth/models.py:92
 msgid "Git URL"
-msgstr ""
+msgstr "URL Git"
 
 #: oauth/models.py:42 oauth/models.py:93
 msgid "SSH URL"
@@ -368,7 +370,7 @@ msgstr ""
 
 #: projects/constants.py:18
 msgid "Automatically Choose"
-msgstr ""
+msgstr "Automaticamente Escolhido"
 
 #: projects/constants.py:19
 msgid "Sphinx Html"
@@ -376,7 +378,7 @@ msgstr ""
 
 #: projects/constants.py:20
 msgid "Mkdocs (Markdown)"
-msgstr ""
+msgstr "Mkdocs (Markdown)"
 
 #: projects/constants.py:21
 msgid "Sphinx HtmlDir"
@@ -413,11 +415,11 @@ msgstr "Haiku"
 
 #: projects/constants.py:69
 msgid "Live"
-msgstr ""
+msgstr "No Ar"
 
 #: projects/constants.py:70
 msgid "Deleted"
-msgstr ""
+msgstr "Apagado"
 
 #: projects/constants.py:74
 msgid "Git"
@@ -437,27 +439,27 @@ msgstr "Bazaar"
 
 #: projects/constants.py:85
 msgid "Public"
-msgstr ""
+msgstr "Público"
 
 #: projects/constants.py:86
 msgid "Protected"
-msgstr ""
+msgstr "Protegido"
 
 #: projects/constants.py:87
 msgid "Private"
-msgstr ""
+msgstr "Privado"
 
 #: projects/constants.py:98
 msgid "CPython 2.x"
-msgstr ""
+msgstr "CPython 2.x"
 
 #: projects/constants.py:99
 msgid "CPython 3.x"
-msgstr ""
+msgstr "CPython 3.x"
 
 #: projects/filters.py:36
 msgid "Created Date"
-msgstr ""
+msgstr "Data Criação"
 
 #: projects/filters.py:38 projects/models.py:64
 msgid "Repository URL"
@@ -469,25 +471,27 @@ msgstr ""
 
 #: projects/forms.py:67
 msgid "Edit advanced project options"
-msgstr ""
+msgstr "Editar opções avançadas de projeto"
 
 #: projects/forms.py:78
 msgid "Invalid project name, a project already exists with that name"
-msgstr ""
+msgstr "Nome projeto inválido, projeto já existe com esse nome"
 
 #: projects/forms.py:85
 msgid "Invalid character in repo name"
-msgstr ""
+msgstr "Caracter inválido como nome de repositório"
 
 #: projects/forms.py:88
 msgid ""
 "It looks like you entered a private repo - please use the public (http:// or "
 "git://) clone url"
 msgstr ""
+"Parece que informou um repositório particular - favor usar um público "
+"(http:// ou git://) clone url"
 
 #: projects/forms.py:131 projects/models.py:142
 msgid "(Beta) The Python interpreter used to create the virtual environment."
-msgstr ""
+msgstr "(Beta) O interpretador Python usado para criar ambiente virtual."
 
 #: projects/forms.py:160
 msgid ""
@@ -496,7 +500,7 @@ msgstr ""
 
 #: projects/forms.py:242 templates/core/project_detail_right.html:102
 msgid "Default Version"
-msgstr ""
+msgstr "Versão Padrão"
 
 #: projects/forms.py:269
 msgid "Zip file of HTML"
@@ -512,7 +516,7 @@ msgstr ""
 
 #: projects/forms.py:286
 msgid "Must upload a zip file."
-msgstr ""
+msgstr "Deve fazer upload arquivo zip."
 
 #: projects/forms.py:300
 msgid "Version of the project you are uploading HTML for"
@@ -521,7 +525,7 @@ msgstr ""
 #: projects/forms.py:317 projects/forms.py:394
 #, python-format
 msgid "Project %(name)s does not exist"
-msgstr ""
+msgstr "Nome Projeto %(name)s não existe"
 
 #: projects/forms.py:338
 #, python-format
@@ -530,15 +534,15 @@ msgstr ""
 
 #: projects/models.py:37
 msgid "Parent"
-msgstr ""
+msgstr "Pai"
 
 #: projects/models.py:39
 msgid "Child"
-msgstr ""
+msgstr "Filho"
 
 #: projects/models.py:65
 msgid "Hosted documentation repository URL"
-msgstr ""
+msgstr "URL do repositório de hospedagem"
 
 #: projects/models.py:66
 msgid "Repository type"
@@ -555,7 +559,7 @@ msgstr ""
 
 #: projects/models.py:70
 msgid "Canonical URL"
-msgstr ""
+msgstr "URL Canônica"
 
 #: projects/models.py:71
 msgid "URL that documentation is expected to serve from"
@@ -563,7 +567,7 @@ msgstr ""
 
 #: projects/models.py:73
 msgid "Project version these docs apply to, i.e. 1.0a"
-msgstr ""
+msgstr "Versão do Projeto desses docs aplicados para ex.. 1.0a"
 
 #: projects/models.py:75 templates/sphinx/sphinx_rtd_theme/layout.html:58
 #: templates/sphinx/sphinx_rtd_theme/layout_old.html:140
@@ -572,7 +576,7 @@ msgstr "Copyright"
 
 #: projects/models.py:76
 msgid "Project copyright information"
-msgstr ""
+msgstr "Informação Copyright do Projeto"
 
 #: projects/models.py:78
 msgid "Theme"
@@ -596,10 +600,13 @@ msgid ""
 "served at the root of the domain. Use this with caution, only turn it on if "
 "you will <b>never</b> have multiple versions of your docs."
 msgstr ""
+"Versão simples do site não têm tradução e somente sua \"última\" versão, "
+"servida na raiz do domínio. Usar isso com cautela, usar somente se <b> nunca "
+"</b> possuir múltiplas versões dos seus documentos."
 
 #: projects/models.py:88
 msgid "Default version"
-msgstr ""
+msgstr "Versão Padrão"
 
 #: projects/models.py:89
 msgid "The version of your project that / redirects to"
@@ -607,7 +614,7 @@ msgstr ""
 
 #: projects/models.py:93
 msgid "Default branch"
-msgstr ""
+msgstr "Ramo Padrão"
 
 #: projects/models.py:94
 msgid ""
@@ -628,7 +635,7 @@ msgstr ""
 
 #: projects/models.py:105
 msgid "Documentation type"
-msgstr ""
+msgstr "Tipo Documentação"
 
 #: projects/models.py:107
 msgid ""
@@ -638,21 +645,23 @@ msgstr ""
 
 #: projects/models.py:110
 msgid "Allow Comments"
-msgstr ""
+msgstr "Permite Comentários"
 
 #: projects/models.py:111
 msgid "Comment Moderation)"
-msgstr ""
+msgstr "Moderação Comentário)"
 
 #: projects/models.py:113
 msgid "Analytics code"
-msgstr ""
+msgstr "Código Analytics"
 
 #: projects/models.py:114
 msgid ""
 "Google Analytics Tracking ID (ex. UA-22345342-1). This may slow down your "
 "page loads."
 msgstr ""
+"ID para rastrear Google Analytics (ex. UA-123456-1). Isso pode atrasar carga "
+"páginas."
 
 #: projects/models.py:119
 msgid "The directory where conf.py lives"
@@ -660,17 +669,19 @@ msgstr ""
 
 #: projects/models.py:121
 msgid "Python configuration file"
-msgstr ""
+msgstr "Arquivo config Python"
 
 #: projects/models.py:122
 msgid ""
 "Path from project root to conf.py file (ex. docs/conf.py). Leave blank if "
 "you want us to find it for you."
 msgstr ""
+"Caminho da raiz do projeto para arquivo conf.py (ex. docs/conf.py). Deixar "
+"em branco se deseja que encontremos automaticamente."
 
 #: projects/models.py:125
 msgid "Featured"
-msgstr ""
+msgstr "Funcionalidade"
 
 #: projects/models.py:126
 msgid "Skip"
@@ -678,7 +689,7 @@ msgstr ""
 
 #: projects/models.py:127
 msgid "Mirror"
-msgstr ""
+msgstr "Espelho"
 
 #: projects/models.py:129
 msgid "Use virtualenv"
@@ -686,11 +697,11 @@ msgstr ""
 
 #: projects/models.py:130
 msgid "Install your project inside a virtualenv using setup.py install"
-msgstr ""
+msgstr "Instalar seu projeto dentro do virtualenv usando setup.py install"
 
 #: projects/models.py:138
 msgid "Python Interpreter"
-msgstr ""
+msgstr "Interpretador Python"
 
 #: projects/models.py:146
 msgid "Use system packages"
@@ -699,16 +710,20 @@ msgstr ""
 #: projects/models.py:147
 msgid "Give the virtual environment access to the global site-packages dir."
 msgstr ""
+"Informe o diretório de acesso do ambiente virtual para pacotes globais do "
+"site."
 
 #: projects/models.py:151
 msgid "Django Packages URL"
-msgstr ""
+msgstr "URL Pacotes Django"
 
 #: projects/models.py:156
 msgid ""
 "(Beta) Level of privacy that you want on the repository. Protected means "
 "public but not in listings."
 msgstr ""
+"(Beta) Nível de privacidade que deseja para o repositório. Protegido "
+"significa público mas não nas listas."
 
 #: projects/models.py:159
 msgid "Version Privacy Level"
@@ -718,14 +733,16 @@ msgstr ""
 msgid ""
 "(Beta) Default level of privacy you want on built versions of documentation."
 msgstr ""
+"(Beta) Nível padrão de privacidade se desejar construir versões de "
+"documentação."
 
 #: projects/models.py:167
 msgid "Related projects"
-msgstr ""
+msgstr "Projetos Relacionados"
 
 #: projects/models.py:171
 msgid "Language"
-msgstr ""
+msgstr "Idioma"
 
 #: projects/models.py:172
 msgid ""
@@ -735,7 +752,7 @@ msgstr ""
 
 #: projects/models.py:177
 msgid "Programming Language"
-msgstr ""
+msgstr "Linguagem Programação"
 
 #: projects/models.py:179
 msgid "The primary programming language the project is written in."
@@ -743,27 +760,27 @@ msgstr ""
 
 #: projects/models.py:188
 msgid "Number of Major versions"
-msgstr ""
+msgstr "Número de versões Maior"
 
 #: projects/models.py:193
 msgid "2 means supporting 3.X.X and 2.X.X, but not 1.X.X"
-msgstr ""
+msgstr "2 significa suportando 3.X.X e 2.X.X, mas não 1.X.X"
 
 #: projects/models.py:196
 msgid "Number of Minor versions"
-msgstr ""
+msgstr "Número versões Menor"
 
 #: projects/models.py:201
 msgid "2 means supporting 2.2.X and 2.1.X, but not 2.0.X"
-msgstr ""
+msgstr "2 significa suportando 2.2.X e 2.1.X, mas não 2.0.X"
 
 #: projects/models.py:204
 msgid "Number of Point versions"
-msgstr ""
+msgstr "Número versões Ponto"
 
 #: projects/models.py:209
 msgid "2 means supporting 2.2.2 and 2.2.1, but not 2.2.0"
-msgstr ""
+msgstr "2 significa suportando 2.2.2 e 2.2.1, mas não 2.2.0"
 
 #. Translators: Permission around whether a user can view the
 #. project
@@ -774,11 +791,11 @@ msgstr ""
 
 #: projects/models.py:251
 msgid "Model must have slug"
-msgstr ""
+msgstr "Modelo deve ter slug"
 
 #: projects/models.py:809
 msgid "MD5 checksum"
-msgstr ""
+msgstr "Checksum MD5"
 
 #: projects/models.py:839
 msgid "URL to send the webhook to"
@@ -786,29 +803,29 @@ msgstr ""
 
 #: projects/signals.py:52
 msgid "GitHub webhook activated"
-msgstr ""
+msgstr "GitHub conexão ativada"
 
 #: projects/signals.py:68
 msgid "BitBucket webhook activated"
-msgstr ""
+msgstr "Marcações BitBucket ativadas"
 
 #: projects/tasks.py:751
 #, python-brace-format
 msgid "Failed: {project.name} ({commit})"
-msgstr ""
+msgstr "Falhou: {project.name} ({commit})"
 
 #: projects/tasks.py:753
 #, python-brace-format
 msgid "Failed: {project.name} ({version.verbose_name})"
-msgstr ""
+msgstr "Falhou: {project.name} ({version.verbose_name})"
 
 #: projects/views/private.py:118 projects/views/private.py:143
 msgid "Project settings updated"
-msgstr ""
+msgstr "Config. Projeto atualizadas"
 
 #: projects/views/private.py:172
 msgid "Project versions updated"
-msgstr ""
+msgstr "Versões projeto atualizadas"
 
 #: projects/views/private.py:216
 #, fuzzy
@@ -829,11 +846,11 @@ msgstr ""
 
 #: redirects/models.py:7
 msgid "301 - Permanent Redirect"
-msgstr ""
+msgstr "301 - Redirecionamento Permanente"
 
 #: redirects/models.py:8
 msgid "302 - Temporary Redirect"
-msgstr ""
+msgstr "302 - Redirecionamento Temporário"
 
 #: redirects/models.py:13
 #, fuzzy
@@ -842,15 +859,15 @@ msgstr "Ativo"
 
 #: redirects/models.py:17
 msgid "Prefix Redirect"
-msgstr ""
+msgstr "Redirecionar Prefixo"
 
 #: redirects/models.py:18
 msgid "Page Redirect"
-msgstr ""
+msgstr "Pág. Redirec."
 
 #: redirects/models.py:19
 msgid "Exact Redirect"
-msgstr ""
+msgstr "Redirecionamente Exato"
 
 #: redirects/models.py:20
 msgid "Sphinx HTMLDir -> HTML"
@@ -865,10 +882,12 @@ msgid ""
 "Absolute path, excluding the domain. Example: <b>/docs/</b>  or <b>/install."
 "html</b>"
 msgstr ""
+"Caminho Absoluto, excluindo o domínio. Exemplo: <b>/docs/</b> ou <b>/install."
+"html</b>"
 
 #: redirects/models.py:28
 msgid "Absolute or relative url. Examples: <b>/tutorial/install.html</b>"
-msgstr ""
+msgstr "Url absoluto ou relativo. Exemplo: <b>/tutorial/install.html</b>"
 
 #: redirects/models.py:31
 msgid "The type of redirect you wish to use."
@@ -876,7 +895,7 @@ msgstr ""
 
 #: redirects/models.py:38
 msgid "Redirect Type"
-msgstr ""
+msgstr "tipo redirecionamento"
 
 #: redirects/models.py:41
 #, fuzzy
@@ -889,30 +908,30 @@ msgstr ""
 
 #: redirects/models.py:47
 msgid "HTTP Status"
-msgstr ""
+msgstr "Status HTTP"
 
 #: redirects/models.py:56
 msgid "redirect"
-msgstr ""
+msgstr "redirecionado"
 
 #: redirects/models.py:57
 msgid "redirects"
-msgstr ""
+msgstr "redirecionado"
 
 #: redirects/models.py:62
 #, python-format
 msgid "Prefix Redirect: %s ->"
-msgstr ""
+msgstr "Prefixo Redirecionado: %s->"
 
 #: redirects/models.py:64
 #, python-format
 msgid "Page Redirect: %s -> %s"
-msgstr ""
+msgstr "Página Redirecionado: %s->%s"
 
 #: redirects/models.py:66
 #, python-format
 msgid "Redirect: %s"
-msgstr ""
+msgstr "Redirecionado %s"
 
 #: settings/base.py:63
 msgid "English"
@@ -924,11 +943,11 @@ msgstr ""
 
 #: settings/base.py:65
 msgid "Norwegian Bokmål"
-msgstr ""
+msgstr "Bokmål Norueguês"
 
 #: settings/base.py:66
 msgid "French"
-msgstr ""
+msgstr "Francês"
 
 #: settings/base.py:67
 msgid "Russian"
@@ -936,11 +955,11 @@ msgstr ""
 
 #: settings/base.py:68
 msgid "German"
-msgstr ""
+msgstr "Alemão"
 
 #: settings/base.py:69
 msgid "Galician"
-msgstr ""
+msgstr "Galego"
 
 #: settings/base.py:70
 msgid "Vietnamese"
@@ -948,7 +967,7 @@ msgstr ""
 
 #: settings/base.py:71
 msgid "Chinese"
-msgstr ""
+msgstr "Chines"
 
 #: settings/base.py:72
 msgid "Taiwanese"
@@ -956,7 +975,7 @@ msgstr ""
 
 #: settings/base.py:73
 msgid "Japanese"
-msgstr ""
+msgstr "Japonês"
 
 #: settings/base.py:74
 msgid "Ukrainian"
@@ -964,7 +983,7 @@ msgstr ""
 
 #: templates/401.html:6 templates/404.html:6
 msgid "Maze Found"
-msgstr ""
+msgstr "Encontrado Maze"
 
 #: templates/500.html:5
 msgid "Server Error"
@@ -975,7 +994,7 @@ msgstr ""
 #: templates/core/header.html:12 templates/core/home-header.html:9
 #: templates/core/email/base.html:7 templates/core/email/base.html.py:92
 msgid "Read the Docs"
-msgstr ""
+msgstr "Read the Docs"
 
 #: templates/base.html:88
 #, python-format
@@ -983,10 +1002,12 @@ msgid ""
 "Copyright 2010-2015. Created by %(eric)s, %(charles)s, and %(bobby)s for the "
 "2010 %(djangodash)s."
 msgstr ""
+"Copyright 2010-2016. Criado por %(eric)s, %(charles)s, e %(bobby)s para 2010 "
+"%(djangodash)s."
 
 #: templates/base.html:90
 msgid "Docs"
-msgstr ""
+msgstr "Docs"
 
 #: templates/base.html:92
 msgid ""
@@ -994,14 +1015,17 @@ msgid ""
 "\">humans</a>. Funded by <a href=\"https://gratipay.com/readthedocs/"
 "\">readers like you</a>."
 msgstr ""
+"Feito por <a href=\"https://github.com/rtfd/readthedocs.org/graphs/"
+"contributors\">humanos</a>. Fundado por <a href=\"https://gratipay.com/"
+"readthedocs/\">leitores como você</a>."
 
 #: templates/base_filter.html:14 templates/core/filter_bar.html:8
 msgid "Filter"
-msgstr ""
+msgstr "Filtro"
 
 #: templates/donate.html:5 templates/core/header.html:36
 msgid "Donate"
-msgstr ""
+msgstr "Donativo"
 
 #: templates/donate.html:11
 msgid ""
@@ -1011,7 +1035,7 @@ msgstr ""
 
 #: templates/donate.html:16
 msgid "Credit Card"
-msgstr ""
+msgstr "Cartão Crédito"
 
 #: templates/donate.html:22
 msgid ""
@@ -1022,19 +1046,19 @@ msgstr ""
 
 #: templates/error_header.html:24 templates/core/header.html:35
 msgid "Log Out"
-msgstr ""
+msgstr "Log Out"
 
 #: templates/error_header.html:28 templates/core/home-header.html:19
 msgid "Log in"
-msgstr ""
+msgstr "Log In"
 
 #: templates/filter.html:26
 msgid "Filtered Results"
-msgstr ""
+msgstr "Resultados Filtrados"
 
 #: templates/homepage.html:7
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: templates/homepage.html:44
 msgid "What is this place?"
@@ -1060,33 +1084,35 @@ msgid ""
 "It's free and simple.  Read the <a href=\"%(getting_started_url)s\">Getting "
 "Started</a> guide to get going!"
 msgstr ""
+"Grátis e Simples. Ler em <a href=\"%(getting_started_url)s\">Primeiros "
+"Passos</a> guia para iniciar!"
 
 #: templates/homepage.html:68
 msgid "Featured Projects"
-msgstr ""
+msgstr "Funcionalidades Projeto"
 
 #: templates/homepage.html:89
 msgid "Recently Updated Projects"
-msgstr ""
+msgstr "Projetos Atualizados Recentemente"
 
 #: templates/homepage.html:89
 msgid "(All Projects)"
-msgstr ""
+msgstr "(Todos Projetos)"
 
 #: templates/post_commit.html:5
 msgid "Build Started"
-msgstr ""
+msgstr "Construção Iniciada"
 
 #: templates/post_commit.html:10
 #, python-format
 msgid "%(project)s is now building."
-msgstr ""
+msgstr "%(project)s está montando."
 
 #. Translators: 'it' refers the current project being built.
 #: templates/post_commit.html:12
 #, python-format
 msgid "Check it out <a href=\"%(project_url)s\">over here</a>."
-msgstr ""
+msgstr "Verificar saída <a href=\"%(project_url)s\">bem aqui</a>."
 
 #: templates/post_commit.html:14
 msgid ""
@@ -1097,7 +1123,7 @@ msgstr ""
 #: templates/account/email.html:6 templates/account/email.html.py:10
 #: templates/profiles/base_profile_edit.html:50
 msgid "Change Email"
-msgstr ""
+msgstr "Mudar Email"
 
 #: templates/account/email.html:14
 msgid "The following e-mail addresses are associated with your account:"
@@ -1113,15 +1139,15 @@ msgstr ""
 
 #: templates/account/email.html:32
 msgid "Primary"
-msgstr ""
+msgstr "Primário"
 
 #: templates/account/email.html:38
 msgid "Make Primary"
-msgstr ""
+msgstr "Fazer Primário"
 
 #: templates/account/email.html:39
 msgid "Re-send Verification"
-msgstr ""
+msgstr "Retransmitir Verificação"
 
 #: templates/account/email.html:40
 #: templates/projects/project_notifications.html:56
@@ -1144,15 +1170,15 @@ msgstr ""
 
 #: templates/account/email.html:52
 msgid "Add E-mail Address"
-msgstr ""
+msgstr "Adic. Endereço E-mail"
 
 #: templates/account/email.html:57
 msgid "Add E-mail"
-msgstr ""
+msgstr "Adic. E-mail"
 
 #: templates/account/email.html:66
 msgid "Do you really want to remove the selected e-mail address?"
-msgstr ""
+msgstr "Confirma remover o endereço email selecionado?"
 
 #: templates/account/login.html:7 templates/account/login.html.py:11
 #: templates/account/login.html:22
@@ -1165,23 +1191,27 @@ msgid ""
 "If you have not created an account yet, then please\n"
 "<a href=\"%(signup_url)s\">sign up</a> first."
 msgstr ""
+"Caso não tenha criado uma conta ainda, favor \n"
+"<a href=\"%(signup_url)s\">Cadastrar-se</a> primeiro."
 
 #: templates/account/login.html:23
 msgid ""
 "If you forgot your password, <a href=\"/accounts/password/reset/\">reset it."
 "</a>"
 msgstr ""
+"Caso esqueceu senha, usar <a href=\"/accounts/password/reset/"
+"\">reinicializar.</a>"
 
 #: templates/account/password_change.html:5
 #: templates/account/password_change.html:9
 #: templates/account/password_change.html:15
 #: templates/profiles/base_profile_edit.html:49
 msgid "Change Password"
-msgstr ""
+msgstr "Mudar Senha"
 
 #: templates/archive/index.html:5
 msgid "Read the Docs Archive"
-msgstr ""
+msgstr "Read the Docs Histórico"
 
 #: templates/bookmarks/bookmark_delete.html:4
 #: templates/bookmarks/bookmark_delete.html:6
@@ -1189,7 +1219,7 @@ msgstr ""
 #: templates/projects/project_delete.html:6
 #, python-format
 msgid "Delete %(name)s?"
-msgstr ""
+msgstr "Apagar %(name)s?"
 
 #: templates/bookmarks/bookmark_delete.html:9
 #: templates/projects/project_delete.html:9
@@ -1199,25 +1229,25 @@ msgstr ""
 #: templates/bookmarks/bookmark_delete.html:12
 #: templates/projects/project_delete.html:12
 msgid "Delete forever"
-msgstr ""
+msgstr "Apagar permanente"
 
 #: templates/bookmarks/bookmark_list.html:7 templates/core/header.html:32
 msgid "Bookmarks"
-msgstr ""
+msgstr "Favoritos"
 
 #: templates/bookmarks/bookmark_list.html:20
 msgid "All Bookmarks"
-msgstr ""
+msgstr "Todos Favoritos"
 
 #: templates/builds/build_detail.html:14
 #, python-format
 msgid "Build for %(project_name)s"
-msgstr ""
+msgstr "Montar para %(project_name)s"
 
 #: templates/builds/build_detail.html:18
 #, python-format
 msgid "Built: %(build_date)s"
-msgstr ""
+msgstr "Construir: %(build_date)s"
 
 #: templates/builds/build_detail.html:20
 msgid "State:"
@@ -1225,21 +1255,21 @@ msgstr ""
 
 #: templates/builds/build_detail.html:24
 msgid "Outcome:"
-msgstr ""
+msgstr "Apareceu:"
 
 #: templates/builds/build_detail.html:27
 msgid "Not yet finished"
-msgstr ""
+msgstr "Não Concluído."
 
 #: templates/builds/build_detail.html:27
 #: templates/core/build_list_detailed.html:6
 msgid "Passed"
-msgstr ""
+msgstr "Passou"
 
 #: templates/builds/build_detail.html:27
 #: templates/core/build_list_detailed.html:6
 msgid "Failed"
-msgstr ""
+msgstr "Falhou"
 
 #: templates/builds/build_detail.html:27
 msgid "Status Code:"
@@ -1255,15 +1285,15 @@ msgstr ""
 
 #: templates/builds/build_detail.html:43
 msgid "Length:"
-msgstr ""
+msgstr "Tamanho:"
 
 #: templates/builds/build_detail.html:46
 msgid "Build Standard Output"
-msgstr ""
+msgstr "Saída Padrão Construção"
 
 #: templates/builds/build_detail.html:50
 msgid "Build Standard Error"
-msgstr ""
+msgstr "Erro Padrão Construção"
 
 #: templates/builds/build_detail.html:55
 msgid "Setup Output"
@@ -1271,7 +1301,7 @@ msgstr ""
 
 #: templates/builds/build_detail.html:60
 msgid "Environment Standard Error"
-msgstr ""
+msgstr "Erros Padrões de Ambiente"
 
 #: templates/builds/build_list.html:37
 #, python-format
@@ -1284,16 +1314,16 @@ msgstr ""
 
 #: templates/builds/build_list.html:58
 msgid "Build Version:"
-msgstr ""
+msgstr "Versão Construída:"
 
 #: templates/builds/build_list.html:70
 msgid "Recent Builds"
-msgstr ""
+msgstr "Montagens Recentes"
 
 #: templates/builds/tag_list.html:5 templates/projects/tag_list.html:4
 #: templates/projects/tag_list.html.py:7
 msgid "Popular tags"
-msgstr ""
+msgstr "Tags Populares"
 
 #: templates/core/build_list_detailed.html:8
 #, python-format
@@ -1304,15 +1334,15 @@ msgstr ""
 #: templates/core/project_list_detailed.html:27
 #, python-format
 msgid "%(date)s ago"
-msgstr ""
+msgstr "%(date)s passados"
 
 #: templates/core/build_list_detailed.html:13
 msgid "No builds found"
-msgstr ""
+msgstr "Não encontrou montagem"
 
 #: templates/core/filter_list.html:12
 msgid "No objects found"
-msgstr ""
+msgstr "Nenhum objeto encontrado"
 
 #: templates/core/header.html:29 templates/core/project_bar.html:7
 #: templates/core/project_bar_base.html:20
@@ -1334,11 +1364,11 @@ msgstr "Criar um Perfil"
 
 #: templates/core/header.html:43
 msgid "Log In"
-msgstr ""
+msgstr "Log In"
 
 #: templates/core/home-header.html:10
 msgid "Create, host, and browse documentation."
-msgstr ""
+msgstr "Criar, armazenar e navegar documentação."
 
 #. Translators: Note, the full sentence goes 'Sign up' 'or' 'Log in'. But unfortunately the three bits have to be separate.
 #: templates/core/home-header.html:17
@@ -1359,12 +1389,12 @@ msgstr ""
 
 #: templates/core/project_bar_base.html:38
 msgid "Overview"
-msgstr ""
+msgstr "Visualizar"
 
 #: templates/core/project_bar_base.html:40
 #: templates/projects/project_downloads.html:22
 msgid "Downloads"
-msgstr ""
+msgstr "Downloads"
 
 #: templates/core/project_bar_base.html:42
 #: templates/core/project_details.html:15
@@ -1378,7 +1408,7 @@ msgstr ""
 
 #: templates/core/project_bar_base.html:44
 msgid "Builds"
-msgstr ""
+msgstr "Construções"
 
 #: templates/core/project_bar_base.html:46
 #: templates/core/project_details.html:30
@@ -1391,13 +1421,13 @@ msgstr ""
 #: templates/core/project_bar_base.html:49
 #: templates/projects/project_edit_base.html:26
 msgid "Comments"
-msgstr ""
+msgstr "Comentários"
 
 #: templates/core/project_bar_base.html:50
 #: templates/profiles/base_profile.html:29
 #: templates/profiles/base_profile_edit.html:31
 msgid "Admin"
-msgstr ""
+msgstr "Admin"
 
 #: templates/core/project_detail_right.html:8
 msgid "Repository"
@@ -1405,23 +1435,23 @@ msgstr ""
 
 #: templates/core/project_detail_right.html:12
 msgid "Last Built"
-msgstr ""
+msgstr "Última Montagem"
 
 #: templates/core/project_detail_right.html:19
 msgid "passed"
-msgstr ""
+msgstr "Passou"
 
 #: templates/core/project_detail_right.html:21
 msgid "failed"
-msgstr ""
+msgstr "falhou"
 
 #: templates/core/project_detail_right.html:32
 msgid "Owners"
-msgstr ""
+msgstr "Prop."
 
 #: templates/core/project_detail_right.html:39
 msgid "Badge"
-msgstr ""
+msgstr "Crachá"
 
 #: templates/core/project_detail_right.html:47
 msgid "Tags"
@@ -1429,15 +1459,15 @@ msgstr ""
 
 #: templates/core/project_detail_right.html:52
 msgid "No tags"
-msgstr ""
+msgstr "Nenhuma Tag"
 
 #: templates/core/project_detail_right.html:58
 msgid "Home Page"
-msgstr ""
+msgstr "Página Home"
 
 #: templates/core/project_detail_right.html:64
 msgid "Project Privacy Level"
-msgstr ""
+msgstr "Nível Privacidade Projeto"
 
 #: templates/core/project_detail_right.html:71
 msgid "Short URLs"
@@ -1445,7 +1475,7 @@ msgstr ""
 
 #: templates/core/project_detail_right.html:80
 msgid "Open Comparison"
-msgstr ""
+msgstr "Abrir Comparação"
 
 #: templates/core/project_detail_right.html:81
 #, python-format
@@ -1466,15 +1496,15 @@ msgstr ""
 
 #: templates/core/project_detail_right.html:105
 msgid "'latest' Version"
-msgstr ""
+msgstr "'última' Versão"
 
 #: templates/core/project_detail_right.html:109
 msgid "Post Commit Hook"
-msgstr ""
+msgstr "Ocor. Post Commit"
 
 #: templates/core/project_detail_right.html:122
 msgid "Most viewed pages for this project"
-msgstr ""
+msgstr "Páginas mais vistas dessse projeto"
 
 #: templates/core/project_details.html:13
 #, python-format
@@ -1484,26 +1514,26 @@ msgstr ""
 #: templates/core/project_details.html:52
 #, python-format
 msgid " %(slug)s "
-msgstr ""
+msgstr " %(slug)s "
 
 #: templates/core/project_details.html:59
 #, python-format
 msgid " %(slug)s"
-msgstr ""
+msgstr " %(slug)s"
 
 #: templates/core/project_details.html:64
 #: templates/projects/project_version_list.html:55
 #: templates/projects/project_version_list.html:99
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: templates/core/project_details.html:74
 msgid "Build a version"
-msgstr ""
+msgstr "Construir uma versão"
 
 #: templates/core/project_details.html:82
 msgid "Build"
-msgstr ""
+msgstr "Construir"
 
 #: templates/core/project_downloads.html:7
 #, python-format
@@ -1531,25 +1561,25 @@ msgstr ""
 
 #: templates/core/project_downloads.html:36
 msgid "No downloads for this project."
-msgstr ""
+msgstr "Nenhum download para esse projeto."
 
 #: templates/core/project_list_detailed.html:29
 msgid "No builds"
-msgstr ""
+msgstr "Nenhuma montagem"
 
 #: templates/core/project_list_detailed.html:47
 #: templates/core/project_list_featured.html:25
 msgid "No Docs"
-msgstr ""
+msgstr "Nenhum Doc"
 
 #: templates/core/project_list_detailed.html:54
 #: templates/core/project_list_featured.html:32
 msgid "No projects found"
-msgstr ""
+msgstr "Nenhum projeto encontrado"
 
 #: templates/core/version_list.html:12
 msgid "Add tags"
-msgstr ""
+msgstr "Adic. Tags"
 
 #: templates/core/widesearchbar.html:4
 msgid "Search all the docs."
@@ -1558,20 +1588,20 @@ msgstr ""
 #. Translators: This is about starting a search
 #: templates/core/widesearchbar.html:16
 msgid "Let's do this."
-msgstr ""
+msgstr "Fazer isso."
 
 #: templates/core/email/base.html:78
 msgid "Hello!"
-msgstr ""
+msgstr "Olá!"
 
 #: templates/core/email/base.html:91
 msgid "Keep documenting,"
-msgstr ""
+msgstr "Continuar documentando,"
 
 #: templates/djangome/choices.html:4
 #, python-format
 msgid "Choose a redirect for \"%(djangome_term)s\""
-msgstr ""
+msgstr "Escolha redirecionamento para \"%(djangome_term)s\""
 
 #: templates/djangome/choices.html:7
 #, python-format
@@ -1579,6 +1609,8 @@ msgid ""
 "Choose a redirect for <kbd>%(djangome_term)s on <a href=\"http://%(slug)s."
 "readthedocs.org\">%(slug)s.readthedocs.org</a></kbd>"
 msgstr ""
+"Escolher redirecionar para <kbd>%(djangome_term)s em <a href=\"http://"
+"%(slug)s.readthedocs.org\">%(slug)s.readthedocs.org</a></kbd>"
 
 #: templates/djangome/choices.html:28
 msgid "Save &amp; go &rarr;"
@@ -1586,7 +1618,7 @@ msgstr ""
 
 #: templates/djangome/oneoffs.html:4
 msgid "One-offs"
-msgstr ""
+msgstr "Um fora"
 
 #: templates/djangome/oneoffs.html:12
 msgid "Term"
@@ -1598,11 +1630,11 @@ msgstr ""
 
 #: templates/djangome/oneoffs.html:27
 msgid "kill"
-msgstr ""
+msgstr "interromper"
 
 #: templates/djangome/oneoffs.html:37
 msgid "add"
-msgstr ""
+msgstr "adic."
 
 #: templates/djangome/show.html:4
 #, python-format
@@ -1616,16 +1648,16 @@ msgstr ""
 
 #: templates/djangome/show.html:13
 msgid "Clicks"
-msgstr ""
+msgstr "Cliques"
 
 #: templates/djangome/show.html:39
 msgid "Add"
-msgstr ""
+msgstr "Adic."
 
 #: templates/flagging/flag_confirm.html:6
 #: templates/flagging/flag_confirm.html:11
 msgid "Confirm flagging"
-msgstr ""
+msgstr "Confirmar Marcação"
 
 #: templates/flagging/flag_confirm.html:17
 msgid "What you are saying:"
@@ -1635,7 +1667,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Are you sure you want to flag \"%(object)s\" as \"%(flag_type.title)s\"?"
-msgstr ""
+msgstr "Confirma marcação \"%(object)s\" como \"%(flag_type.title)s\"?"
 
 #: templates/flagging/flag_confirm.html:23
 #, python-format
@@ -1649,7 +1681,7 @@ msgstr "cancelar"
 #: templates/flagging/flag_success.html:6
 #: templates/flagging/flag_success.html:11
 msgid "Flagging successful"
-msgstr ""
+msgstr "Marcação com sucesso"
 
 #: templates/flagging/flag_success.html:16
 #, python-format
@@ -1663,21 +1695,21 @@ msgstr ""
 #: templates/pagination/pagination.html:6
 #: templates/pagination/pagination.html:8
 msgid "previous"
-msgstr ""
+msgstr "anterior"
 
 #: templates/pagination/pagination.html:22
 #: templates/pagination/pagination.html:24
 msgid "next"
-msgstr ""
+msgstr "próx"
 
 #: templates/profiles/base_profile.html:27
 #: templates/profiles/base_profile_edit.html:30
 msgid "Profile"
-msgstr ""
+msgstr "Perfil"
 
 #: templates/profiles/base_profile_edit.html:47
 msgid "Details"
-msgstr ""
+msgstr "Detalhes"
 
 #: templates/profiles/base_profile_edit.html:48
 #: templates/socialaccount/connections.html:6
@@ -1688,33 +1720,33 @@ msgstr ""
 #: templates/profiles/private/create_profile.html:5
 #: templates/profiles/private/create_profile.html:10
 msgid "Create your profile"
-msgstr ""
+msgstr "Criar seu perfil"
 
 #: templates/profiles/private/create_profile.html:16
 msgid "Create it!"
-msgstr ""
+msgstr "Criar!"
 
 #: templates/profiles/private/edit_profile.html:5
 #: templates/profiles/private/edit_profile.html:9
 msgid "Edit your profile"
-msgstr ""
+msgstr "Editar seu Perfil"
 
 #: templates/profiles/private/edit_profile.html:14
 msgid "OK, save it!"
-msgstr ""
+msgstr "OK, salvar isso!"
 
 #: templates/profiles/public/profile_detail.html:6
 #, python-format
 msgid "%(user)s's profile"
-msgstr ""
+msgstr "%(user)s's perfil"
 
 #: templates/projects/alias_edit.html:4 templates/projects/alias_edit.html:7
 msgid "Project Alias"
-msgstr ""
+msgstr "Apelido Projeto"
 
 #: templates/projects/alias_edit.html:12
 msgid "Add an alias for a project version."
-msgstr ""
+msgstr "Adic. apelido versão projeto."
 
 #: templates/projects/alias_edit.html:16
 #: templates/projects/project_create.html:34
@@ -1723,12 +1755,12 @@ msgstr "Criar"
 
 #: templates/projects/alias_list.html:6 templates/projects/alias_list.html:11
 msgid "Aliases"
-msgstr ""
+msgstr "Apelidos"
 
 #: templates/projects/alias_list.html:20
 #: templates/projects/project_list.html:48
 msgid "Browse projects"
-msgstr ""
+msgstr "Browse em projetos"
 
 #: templates/projects/import_base.html:4
 #, fuzzy
@@ -1742,7 +1774,7 @@ msgstr "Projeto"
 #: templates/search/elastic_search.html:191 templates/search/search.html:58
 #: templates/search/search.html.py:60
 msgid "Next"
-msgstr ""
+msgstr "Próx."
 
 #: templates/projects/import_base.html:29
 #, fuzzy
@@ -1756,7 +1788,7 @@ msgstr "Finalizado"
 #: templates/search/elastic_search.html:185 templates/search/search.html:52
 #: templates/search/search.html.py:54
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: templates/projects/import_basics.html:5
 #, fuzzy
@@ -1775,7 +1807,7 @@ msgstr ""
 
 #: templates/projects/import_extra.html:20
 msgid "Project Extra Details"
-msgstr ""
+msgstr "Detalhes extras do Projeto"
 
 #: templates/projects/import_extra.html:23
 msgid ""
@@ -1786,19 +1818,19 @@ msgstr ""
 
 #: templates/projects/legend.html:4
 msgid "External Links"
-msgstr ""
+msgstr "Links Externos"
 
 #: templates/projects/legend.html:5
 msgid "Link text"
-msgstr ""
+msgstr "Texto Link"
 
 #: templates/projects/legend.html:7
 msgid "Internal Links"
-msgstr ""
+msgstr "Links Internos"
 
 #: templates/projects/legend.html:10
 msgid "Bold"
-msgstr ""
+msgstr "Negrito"
 
 #: templates/projects/legend.html:11
 msgid "text to bold"
@@ -1806,7 +1838,7 @@ msgstr ""
 
 #: templates/projects/legend.html:13
 msgid "Emphasized"
-msgstr ""
+msgstr "Emfatizado"
 
 #: templates/projects/legend.html:14
 msgid "text to emphasize"
@@ -1814,12 +1846,12 @@ msgstr ""
 
 #: templates/projects/legend.html:16
 msgid "Lists"
-msgstr ""
+msgstr "Listas"
 
 #: templates/projects/legend.html:19 templates/projects/legend.html.py:20
 #: templates/projects/legend.html:23 templates/projects/legend.html.py:24
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
 #: templates/projects/legend.html:28
 msgid "Source Code"
@@ -1827,11 +1859,11 @@ msgstr ""
 
 #: templates/projects/legend.html:30
 msgid "e.g. Check out this code"
-msgstr ""
+msgstr "ex. Verificar esse código"
 
 #: templates/projects/legend.html:31
 msgid "actual code indented"
-msgstr ""
+msgstr "Código real indentado"
 
 #: templates/projects/legend.html:34
 msgid "reStructuredText Primer"
@@ -1854,7 +1886,7 @@ msgstr ""
 
 #: templates/projects/onboard_detail.html:21
 msgid "Build latest version"
-msgstr ""
+msgstr "Última Versão Construída"
 
 #: templates/projects/onboard_detail.html:29
 msgid "Your documentation is ready to use"
@@ -1914,12 +1946,12 @@ msgstr ""
 
 #: templates/projects/project_advanced.html:23
 msgid "Edit Advanced Project Settings"
-msgstr ""
+msgstr "Editar Configuração Projeto Avançada"
 
 #: templates/projects/project_advanced.html:28
 #: templates/projects/project_edit_base.html:18
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Config Avançadas"
 
 #: templates/projects/project_advanced.html:34
 #: templates/projects/project_edit.html:37
@@ -1936,7 +1968,7 @@ msgstr ""
 #: templates/projects/project_comments_settings.html:5
 #: templates/projects/project_comments_settings.html:12
 msgid "Comments Settings"
-msgstr ""
+msgstr "Config. Comentários"
 
 #: templates/projects/project_comments_settings.html:16
 msgid "Settings for comments and moderation."
@@ -1944,49 +1976,49 @@ msgstr ""
 
 #: templates/projects/project_create.html:21
 msgid "Create a new project"
-msgstr ""
+msgstr "Criar novo projeto"
 
 #: templates/projects/project_create.html:24
 msgid "Create a New Project"
-msgstr ""
+msgstr "Criar Novo Projeto"
 
 #: templates/projects/project_create.html:29
 msgid ""
 "Create new documentation here. If you already have docs in a public "
 "repository,"
-msgstr ""
+msgstr "Criar nova documentação aqui. Se tiver docs em um repositório público,"
 
 #: templates/projects/project_create.html:30
 msgid "import an existing project"
-msgstr ""
+msgstr "importar projeto existente"
 
 #: templates/projects/project_dashboard_base.html:6
 msgid "Project Dashboard"
-msgstr ""
+msgstr "Painel Controle"
 
 #: templates/projects/project_dashboard_base.html:20
 msgid "Important Versions"
-msgstr ""
+msgstr "Importar Versões"
 
 #: templates/projects/project_dashboard_base.html:70
 msgid "No builds yet"
-msgstr ""
+msgstr "Ainda não foram feitas montagens"
 
 #: templates/projects/project_dashboard_base.html:76
 msgid "1 build"
-msgstr ""
+msgstr "1 montagem"
 
 #: templates/projects/project_dashboard_base.html:78
 msgid "builds"
-msgstr ""
+msgstr "construções"
 
 #: templates/projects/project_dashboard_base.html:83
 msgid "passing"
-msgstr ""
+msgstr "passando"
 
 #: templates/projects/project_dashboard_base.html:85
 msgid "failing"
-msgstr ""
+msgstr "falhas"
 
 #: templates/projects/project_dashboard_base.html:135
 msgid ""
@@ -1998,11 +2030,11 @@ msgstr ""
 
 #: templates/projects/project_dashboard_base.html:152
 msgid "Recent Bookmarks"
-msgstr ""
+msgstr "Favoritos Recentes"
 
 #: templates/projects/project_dashboard_base.html:158
 msgid "All My Bookmarks"
-msgstr ""
+msgstr "Todos Meus Favoritos"
 
 #: templates/projects/project_dashboard_base.html:161
 msgid "You have not added any bookmarks"
@@ -2010,7 +2042,7 @@ msgstr ""
 
 #: templates/projects/project_edit.html:23
 msgid "Edit Project"
-msgstr ""
+msgstr "Editar Projeto"
 
 #: templates/projects/project_edit.html:28
 #: templates/projects/project_edit_base.html:17
@@ -2019,18 +2051,18 @@ msgstr ""
 
 #: templates/projects/project_edit.html:40
 msgid "delete"
-msgstr ""
+msgstr "apagar"
 
 #: templates/projects/project_edit_base.html:20
 #: templates/projects/project_users.html:8
 msgid "Maintainers"
-msgstr ""
+msgstr "Mantenedores"
 
 #: templates/projects/project_edit_base.html:21
 #: templates/projects/project_redirects.html:8
 #: templates/projects/project_redirects.html:78
 msgid "Redirects"
-msgstr ""
+msgstr "Redirecionar"
 
 #: templates/projects/project_edit_base.html:23
 #: templates/projects/project_subprojects.html:12
@@ -2040,7 +2072,7 @@ msgstr ""
 #: templates/projects/project_edit_base.html:24
 #: templates/projects/project_notifications.html:12
 msgid "Notifications"
-msgstr ""
+msgstr "Notificações"
 
 #: templates/projects/project_import.html:6
 #, fuzzy
@@ -2058,7 +2090,7 @@ msgstr ""
 
 #: templates/projects/project_import.html:19
 msgid "From GitHub"
-msgstr ""
+msgstr "Origem GitHub"
 
 #: templates/projects/project_import.html:23
 msgid ""
@@ -2070,7 +2102,7 @@ msgstr ""
 
 #: templates/projects/project_import.html:29
 msgid "Import from GitHub"
-msgstr ""
+msgstr "Importar do GitHub"
 
 #: templates/projects/project_import.html:33
 msgid ""
@@ -2096,7 +2128,7 @@ msgstr ""
 
 #: templates/projects/project_import.html:54
 msgid "Import from Bitbucket"
-msgstr ""
+msgstr "importar do Bitbucket"
 
 #: templates/projects/project_import.html:58
 msgid ""
@@ -2109,7 +2141,7 @@ msgstr ""
 
 #: templates/projects/project_import.html:69
 msgid "Manually Import"
-msgstr ""
+msgstr "Importar Manualmente"
 
 #: templates/projects/project_import.html:72
 msgid ""
@@ -2120,12 +2152,12 @@ msgstr ""
 
 #: templates/projects/project_import.html:78
 msgid "Manually Import Project"
-msgstr ""
+msgstr "Manualmente importar Projeto"
 
 #: templates/projects/project_import_bitbucket.html:4
 #: templates/projects/project_import_bitbucket.html:22
 msgid "Import a BitBucket project"
-msgstr ""
+msgstr "Importar Projeto BitBucket"
 
 #: templates/projects/project_import_bitbucket.html:29
 #, python-format
@@ -2136,7 +2168,7 @@ msgstr ""
 
 #: templates/projects/project_import_bitbucket.html:33
 msgid "BitBucket projects are now up to date."
-msgstr ""
+msgstr "Projetos BitBucket estão atualizados."
 
 #: templates/projects/project_import_bitbucket.html:85
 #, python-format
@@ -2149,7 +2181,7 @@ msgstr ""
 #: templates/projects/project_import_github.html:4
 #: templates/projects/project_import_github.html:22
 msgid "Import a GitHub project"
-msgstr ""
+msgstr "Importar projeto GibHub"
 
 #: templates/projects/project_import_github.html:29
 #, python-format
@@ -2160,7 +2192,7 @@ msgstr ""
 
 #: templates/projects/project_import_github.html:33
 msgid "GitHub projects are now up to date."
-msgstr ""
+msgstr "Projetos GitHub estão atualizados."
 
 #: templates/projects/project_import_github.html:85
 #, python-format
@@ -2174,31 +2206,31 @@ msgstr ""
 #: templates/projects/project_list.html:27
 #, python-format
 msgid "Projects by %(username)s tagged with %(tag)s"
-msgstr ""
+msgstr "Projetos por %(username)s marcados com %(tag)s"
 
 #: templates/projects/project_list.html:11
 #: templates/projects/project_list.html:29
 #, python-format
 msgid "Projects by %(username)s"
-msgstr ""
+msgstr "Projeto por %(username)s"
 
 #: templates/projects/project_list.html:15
 #: templates/projects/project_list.html:33
 #, python-format
 msgid "Projects tagged with %(tag)s"
-msgstr ""
+msgstr "Projetos marcados com %(tag)s"
 
 #: templates/projects/project_notifications.html:5
 msgid "Edit Notifications"
-msgstr ""
+msgstr "Editar Notificações"
 
 #: templates/projects/project_notifications.html:16
 msgid "Configure Notifications to be sent on build failures."
-msgstr ""
+msgstr "Configurar Notificações para enviar quando construir falhar."
 
 #: templates/projects/project_notifications.html:20
 msgid "Existing Notifications"
-msgstr ""
+msgstr "Notificações Existentes"
 
 #: templates/projects/project_notifications.html:44
 msgid "Remove Notifications"
@@ -2206,33 +2238,35 @@ msgstr ""
 
 #: templates/projects/project_notifications.html:62
 msgid "New Email Notifications"
-msgstr ""
+msgstr "Novas notificações Email"
 
 #: templates/projects/project_notifications.html:64
 msgid "Add an email address to notify"
-msgstr ""
+msgstr "Adic. endereço email para notificar"
 
 #: templates/projects/project_notifications.html:73
 msgid "New Webhook Notifications"
-msgstr ""
+msgstr "Novas Notificações conexões Web"
 
 #: templates/projects/project_notifications.html:75
 msgid "Add a URL to notify"
-msgstr ""
+msgstr "Adic. URL para notificar"
 
 #: templates/projects/project_redirects.html:5
 msgid "Edit Redirects"
-msgstr ""
+msgstr "Editar Redicionamentos"
 
 #: templates/projects/project_redirects.html:74
 msgid ""
 "Add redirects for your project. This allows you to fix links to old pages "
 "that are 404ing."
 msgstr ""
+"Adic. redirecionamento do seu projeto. Isso permite fix links para páginas "
+"antigas que geram cod. 404."
 
 #: templates/projects/project_subprojects.html:5
 msgid "Edit Subprojects"
-msgstr ""
+msgstr "Editar SubProjetos"
 
 #: templates/projects/project_subprojects.html:16
 msgid ""
@@ -2242,15 +2276,15 @@ msgstr ""
 
 #: templates/projects/project_subprojects.html:19
 msgid "Existing Subprojects"
-msgstr ""
+msgstr "SubProjetos Existentes"
 
 #: templates/projects/project_subprojects.html:32
 msgid "Choose which project you would like to add as a subproject."
-msgstr ""
+msgstr "Escolha para qual projeto deseja adicionar como subprojeto."
 
 #: templates/projects/project_translations.html:5
 msgid "Edit Translations"
-msgstr ""
+msgstr "Editar Traduções"
 
 #: templates/projects/project_translations.html:16
 msgid ""
@@ -2260,15 +2294,15 @@ msgstr ""
 
 #: templates/projects/project_translations.html:19
 msgid "Existing Translations"
-msgstr ""
+msgstr "Traduções Existentes"
 
 #: templates/projects/project_translations.html:31
 msgid "Choose which project you would like to add as a translation."
-msgstr ""
+msgstr "Escolha qual projeto deseja adiconar como tradução."
 
 #: templates/projects/project_users.html:5
 msgid "Edit Maintainers"
-msgstr ""
+msgstr "Editar Mantenedores"
 
 #: templates/projects/project_users.html:12
 msgid ""
@@ -2278,7 +2312,7 @@ msgstr ""
 
 #: templates/projects/project_users.html:15
 msgid "Existing Maintainers"
-msgstr ""
+msgstr "Mantenedores Existentes"
 
 #: templates/projects/project_users.html:28
 msgid "Remove Maintainer"
@@ -2286,16 +2320,16 @@ msgstr ""
 
 #: templates/projects/project_users.html:44
 msgid "Add Maintainer"
-msgstr ""
+msgstr "Adic. Mantenedor"
 
 #: templates/projects/project_users.html:46
 msgid "Choose which user you would like to add."
-msgstr ""
+msgstr "Escolha qual usuário deseja adicionar."
 
 #: templates/projects/project_version_detail.html:14
 #, python-format
 msgid "%(version_name)s"
-msgstr ""
+msgstr "%(version_name)s"
 
 #: templates/projects/project_version_list.html:35
 #, fuzzy
@@ -2309,23 +2343,23 @@ msgstr "Ativo"
 
 #: templates/projects/project_version_list.html:97
 msgid "Clean"
-msgstr ""
+msgstr "Limpar"
 
 #: templates/projects/project_versions.html:4
 msgid "Edit Project Versions"
-msgstr ""
+msgstr "Editar Versões Projeto"
 
 #: templates/projects/project_versions.html:21
 msgid "Choose the version that / will redirect to."
-msgstr ""
+msgstr "Escolha a versão para a qual será redirecionada."
 
 #: templates/projects/project_versions.html:27
 msgid "Choose Active Versions"
-msgstr ""
+msgstr "Escolha Versões Ativas"
 
 #: templates/projects/project_versions.html:29
 msgid "Active versions below will show up on the site."
-msgstr ""
+msgstr "Versões ativas abaixo irão aparecer no site."
 
 #: templates/projects/search.html:6 templates/projects/search.html.py:20
 #, python-format
@@ -2334,15 +2368,15 @@ msgstr ""
 
 #: templates/projects/search.html:37
 msgid "Huh?"
-msgstr ""
+msgstr "Como?"
 
 #: templates/projects/search.html:38
 msgid "No docs matched your search. ¯\\(O_o)/¯"
-msgstr ""
+msgstr "Nenhum doc atendeu argumento busca ¯\\(O_o)/¯"
 
 #: templates/projects/upload_html.html:4
 msgid "Import HTML Documentation"
-msgstr ""
+msgstr "Importar Documentação HTML"
 
 #: templates/projects/upload_html.html:7
 msgid "Upload HTML"
@@ -2361,11 +2395,11 @@ msgstr ""
 #. Translators: After 'Flag this project as' follows either 'Inappropriate', 'Spam' and/or 'Duplicate'
 #: templates/projects/includes/flagging.html:7
 msgid "Flag this project as"
-msgstr ""
+msgstr "Marcar esse projeto como"
 
 #: templates/projects/includes/flagging.html:8
 msgid "Inappropriate"
-msgstr ""
+msgstr "Inapropriado"
 
 #: templates/projects/includes/flagging.html:9
 msgid "Spam"
@@ -2377,16 +2411,16 @@ msgstr "Duplicado"
 
 #: templates/projects/includes/icon_built.html:9
 msgid "Not built"
-msgstr ""
+msgstr "Nenhuma construção"
 
 #: templates/projects/samples/getting_started.rst.html:3
 msgid "Here's a place to describe how to get up and running with your project"
-msgstr ""
+msgstr "Aqui é o local para descrever como ativar e executar o projeto"
 
 #: templates/projects/samples/installation.rst.html:3
 #, python-format
 msgid "Here is where you can describe how to install %(name)s"
-msgstr ""
+msgstr "Aqui é onde podem ser dadas as explicações para instalar %(name)s"
 
 #: templates/search/base_facet.html:5 templates/search/search.html:5
 #, python-format
@@ -2400,23 +2434,22 @@ msgstr ""
 #: templates/search/elastic_project_search.html:70
 #: templates/search/elastic_search.html:116 templates/search/search.html:17
 msgid "Go crazy."
-msgstr ""
+msgstr "Ir Loucura."
 
-#: templates/search/base_search.html:9
-#: templates/search/faceted_results.html:49
+#: templates/search/base_search.html:9 templates/search/faceted_results.html:49
 msgid "Project:"
-msgstr ""
+msgstr "Projeto:"
 
 #: templates/search/base_search.html:14
 msgid "File:"
-msgstr ""
+msgstr "Arquivo:"
 
 #: templates/search/base_search.html:24
 #: templates/search/elastic_project_search.html:101
 #: templates/search/elastic_search.html:167
 #: templates/search/faceted_results.html:63
 msgid "No results found. Bummer."
-msgstr ""
+msgstr "Nenhum resultado encontrado. Bummer."
 
 #: templates/search/elastic_project_search.html:5
 #: templates/search/elastic_search.html:5
@@ -2432,29 +2465,29 @@ msgstr ""
 
 #: templates/search/faceted_author.html:8
 msgid "By Author"
-msgstr ""
+msgstr "Por Autor"
 
 #: templates/search/faceted_author.html:13
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: templates/search/faceted_author.html:21
 msgid "No author facets."
-msgstr ""
+msgstr "Não há face author"
 
 #: templates/search/faceted_results.html:7
 #, python-format
 msgid "%(count)s Results for %(query)s"
-msgstr ""
+msgstr "%(count)s Resultados para %(query)s"
 
 #: templates/search/faceted_results.html:7
 msgid "No search term entered"
-msgstr ""
+msgstr "Nenhum termo de busca informado"
 
 #. Translators: The refers to filtering a search by using facets
 #: templates/search/faceted_results.html:15
 msgid "Filtered by"
-msgstr ""
+msgstr "Filtrado por"
 
 #: templates/search/faceted_results.html:18
 msgid "remove"
@@ -2462,15 +2495,15 @@ msgstr ""
 
 #: templates/search/faceted_results.html:21
 msgid "Filter by Project"
-msgstr ""
+msgstr "Filtro por Projeto"
 
 #: templates/search/faceted_results.html:32
 msgid "No project facets."
-msgstr ""
+msgstr "Nenhuma ícone no Projeto"
 
 #: templates/search/faceted_results.html:54
 msgid "File"
-msgstr ""
+msgstr "arquivo"
 
 #: templates/socialaccount/connections.html:15
 msgid ""
@@ -2485,21 +2518,21 @@ msgstr ""
 
 #: templates/socialaccount/connections.html:49
 msgid "Add a 3rd Party Account"
-msgstr ""
+msgstr "Adic. Conta Terc."
 
 #: templates/sphinx/sphinx_rtd_theme/layout.html:47
 #: templates/sphinx/sphinx_rtd_theme/layout_old.html:131
 msgid "About these documents"
-msgstr ""
+msgstr "Sobre esses documentos"
 
 #: templates/sphinx/sphinx_rtd_theme/layout.html:51
 #: templates/sphinx/sphinx_rtd_theme/layout_old.html:134
 msgid "Index"
-msgstr ""
+msgstr "Índice"
 
 #: templates/sphinx/sphinx_rtd_theme/layout_old.html:29
 msgid "Navigation"
-msgstr ""
+msgstr "Navegação"
 
 #: templates/sphinx/sphinx_rtd_theme/search.html:33
 msgid "Search Results"
